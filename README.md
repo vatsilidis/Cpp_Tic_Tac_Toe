@@ -1,18 +1,21 @@
-# Cpp_Tic_Tac_Toe
-This is the classic 2 player game Tic Tac Toe in C++. The next future update will be to add GUI with QT Framework.
-
-##
-This is a 2 players game Tic Tac Toe in C++.
-In future updates I will add GUI with QT. 
+# C++ Tic Tac Toe game
+This is the classic 2 player game Tic Tac Toe in C++. 
 For now needs an sort update to avoid hanging when a character entered instead of a number for x/y coordinates.
 
-# Compile and run 
-### To compile run
+## How is working
+The player is giving the coordinates for the row and the column by eac one player.
+If a cell is not empty asking again the player to enter another cell.
+After each move is checking if some player has 3 same symbols in a row or in a column or diagonal.
 
+## To the future
+The next future update will be to add GUI with QT Framework.
+
+# Compile and run 
+
+### To compile run
 `g++ main.cpp` 
 
 ### To compile in MacOS run
-
 `g++ main.cpp tictactoe.cpp`
 
 ### To play run
