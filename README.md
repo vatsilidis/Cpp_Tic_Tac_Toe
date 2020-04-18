@@ -8,7 +8,7 @@ If a cell is not empty asking again the player to enter another cell.
 After each move is checking if some player has 3 same symbols in a row or in a column or diagonal.
 
 
-![picture](shot.jpg)
+![picture](shot.png)
 
 
 ## Cloning
