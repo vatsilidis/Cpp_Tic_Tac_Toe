@@ -7,6 +7,17 @@ The player is giving the coordinates for the row and the column by eac one playe
 If a cell is not empty asking again the player to enter another cell.
 After each move is checking if some player has 3 same symbols in a row or in a column or diagonal.
 
+
+![picture](shot.jpg)
+
+
+## Cloning
+
+Using HTTPS:
+```
+git clone https://github.com/vatsilidis/Cpp_Tic_Tac_Toe.git
+```
+
 ## To the future
 The next future update will be to add GUI with QT Framework.
 
@@ -23,4 +34,5 @@ The next future update will be to add GUI with QT Framework.
 
 
 ## Contributors
- [Lampros Vatsilidis](https://www.linkedin.com/in/lampros-vatsilidis-5666ba128/)
+* [Lampros Vatsilidis](https://www.linkedin.com/in/lampros-vatsilidis-5666ba128/)
+ 
