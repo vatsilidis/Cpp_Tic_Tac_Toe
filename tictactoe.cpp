@@ -96,10 +96,20 @@ void tictactoe::play (){
       do{
         cout << "Plays the player with symbol " << inp << " \n \n";
         cout << "Choose in which LINE from 1 to 3 to insert your symbol "<< inp <<" \n";
-        cin >> tmp;
+        //validating the input not being a character
+        while (!(std::cin >> tmp)){
+            std::cin.clear(); // clear the error flags
+            std::cin.ignore(INT_MAX, '\n'); // discard the row
+            std::cout << "Invalid input! Try again: \n ---";
+        }
         x=tmp-1;
         cout << "Choose in which COLUMN from 1 to 3 to insert your symbol "<< inp <<" \n";
-        cin >> tmp;
+        //validating the input not being a character
+        while (!(std::cin >> tmp)){
+            std::cin.clear(); // clear the error flags
+            std::cin.ignore(INT_MAX, '\n'); // discard the row
+            std::cout << "Invalid input! Try again: \n ---";
+        }
         y=tmp-1;
         if (!play (x, y, inp)){
             cout << "\n ********-- WARNING --******** \n This cell on table is not empty. \n";
