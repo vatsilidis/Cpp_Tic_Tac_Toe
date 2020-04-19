@@ -1,6 +1,5 @@
 # C++ Tic Tac Toe game
 This is the classic 2 player game Tic Tac Toe in C++. 
-For now needs an sort update to avoid hanging when a character entered instead of a number for x/y coordinates.
 
 ## How is working
 The player is giving the coordinates for the row and the column by eac one player.
